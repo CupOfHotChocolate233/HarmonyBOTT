@@ -2,7 +2,6 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const path = require('path');
 const request = require('request-promise');
-const config = require('./data/client.json');
 const updateServer = require('./UpdateServer.js');
 const Util = require('./src/Util.js');
 
