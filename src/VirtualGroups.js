@@ -1,3 +1,5 @@
+/* global Cache */
+
 const request = require('request-promise')
 
 // VirtualGroups can be used in place of group IDs for
