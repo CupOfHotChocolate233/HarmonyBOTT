@@ -1,3 +1,4 @@
+==
 local utils = require("/app/utils.lua")
 
 command.info = {
@@ -25,4 +26,4 @@ command.execute = function(message,args,client)
   end
 end
 
-return command 
+return command
