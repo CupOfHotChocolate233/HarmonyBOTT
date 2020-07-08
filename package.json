@@ -24,6 +24,11 @@
     "request": "^2.88.2",
     "request-promise": "^4.2.5",
     "request-promise-core": "^1.1.3",
-    "stealthy-require": "^1.1.1"
+    "stealthy-require": "^1.1.1",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v18.3.0",
+    "zlib-sync": "file:node_modules/zlib-sync"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
   }
 }
