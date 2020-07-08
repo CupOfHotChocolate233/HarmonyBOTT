@@ -4,7 +4,7 @@ const path = require('path');
 const request = require('request-promise');
 const config = require('./data/client.json');
 const updateServer = require('./UpdateServer.js');
-const Util = require('./Util.js');
+const Util = require('./src/Util.js');
 
 bot.on('ready', ()=>{
     console.log('system online.....')
